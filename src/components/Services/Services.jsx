@@ -22,7 +22,7 @@ const ServicesData = [
     id: 2,
     title: "Tv-Smart Android",
     link: "#",
-    icon: <FadConnectedTv />,
+    icon: <MdConnectedTv />,
     delay: 0.3,
   },
   {
