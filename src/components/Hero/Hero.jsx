@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "../../public/BannerPM.png";//Ballenas despues de Puerto Madryn
 import Navbar from "../Navbar/Navbar";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { motion } from "framer-motion";
@@ -38,8 +39,9 @@ const Hero = () => {
               animate="animate"
               className="text-3xl lg:text-5xl font-bold !leading-snug pt-10"
             >
-              Departamento en el Centro de{" "}
-              <span className="text-secondary"> Puerto Madryn ♥</span>
+              Departamento a pocas cuadras del mar en{" "}
+              <span className="text-secondary"> Puerto Madryn</span>
+              <img src={Banner} />
             </motion.h1>
             <motion.div
               variants={FadeUp(0.8)}
