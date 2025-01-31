@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../public/BannerPM.png";//Ballenas despues de Puerto Madryn
+import Ballenas from "../../assets/BannerPM.png";//Ballenas despues de Puerto Madryn
 import Navbar from "../Navbar/Navbar";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { motion } from "framer-motion";
@@ -41,7 +41,7 @@ const Hero = () => {
             >
               Departamento a pocas cuadras del mar en{" "}
               <span className="text-secondary"> Puerto Madryn</span>
-              <img src={Banner} />
+              <img src={Ballenas} />
             </motion.h1>
             <motion.div
               variants={FadeUp(0.8)}
