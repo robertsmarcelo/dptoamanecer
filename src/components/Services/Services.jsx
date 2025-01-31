@@ -3,8 +3,8 @@ import { RiWifiLine } from "react-icons/ri"; // Para Wifi
 import { MdConnectedTv } from "react-icons/md"; // Para TV Smart
 import { LuMicrowave } from "react-icons/lu"; // Para Cocina completamente equipada
 import { RiHotelBedLine } from "react-icons/ri"; // Para Blanquería
-import { FaSoap } from "react-icons/fa"; // Para Shampoo y jabón
-import { GiCookingPot } from "react-icons/gi"; // Para Microondas cocina
+import { FaShower } from "react-icons/fa6"; // Para Shampoo y jabón
+import { BsFan } from "react-icons/bs"; //Ventilador de Techo
 import { FaFirstAid } from "react-icons/fa"; // Para Patio trasero privado
 import { MdAccessibility } from "react-icons/md"; // Para Planta baja (sin escaleras)
 import { motion } from "framer-motion";
@@ -27,7 +27,7 @@ const ServicesData = [
   },
   {
     id: 3,
-    title: "Cocina completamente equipada, Microondas, Pava Electrica",
+    title: "Cocina completamente equipada, Microondas, Pava Electrica", Heladera,
     link: "#",
     icon: <LuMicrowave />,
     delay: 0.4,
@@ -43,14 +43,14 @@ const ServicesData = [
     id: 5,
     title: "Baño - Papel Higienico, jabon tocador",
     link: "#",
-    icon: <FaSoap />,
+    icon: <FaShower />,
     delay: 0.6,
   },
   {
     id: 6,
-    title: "En la cocina - Ollas, cubiertos y utensillos, detegente, esponja, rejilla y repasador",
+    title: "Ventilador de Techo,
     link: "#",
-    icon: <GiCookingPot />, // Alternativa para "Patio trasero privado"
+    icon: <BsFan />,
     delay: 0.7,
   },
   {
@@ -60,13 +60,6 @@ const ServicesData = [
     icon: <MdAccessibility />,
     delay: 0.8,
   },
-  //{
-    //id: 8,
-    //title: "",
-    //link: "#",
-    //icon: <FaFirstAid  />, // Icono de botiquín en rojo
-    //delay: 0.8,
-  //},
 ];
 
 const SlideLeft = (delay) => {
