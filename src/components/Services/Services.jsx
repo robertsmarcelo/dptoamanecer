@@ -27,7 +27,7 @@ const ServicesData = [
   },
   {
     id: 3,
-    title: "Cocina completamente equipada, Microondas, Pava Electrica", Heladera,
+    title: "Cocina completamente equipada, Microondas, Pava Electrica, Heladera",
     link: "#",
     icon: <LuMicrowave />,
     delay: 0.4,
