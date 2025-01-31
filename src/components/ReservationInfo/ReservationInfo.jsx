@@ -18,7 +18,7 @@ const rules = {
   apto: [
     { title: "Bebés (0 a 2 años)", icon: <FaBaby /> },
     { title: "Niños (2 a 12 años)", icon: <FaChild /> },
-    { title: "Personas con movilidad reducida", icon: <FaWheelchair  /> },
+    { title: "Adultos mayores sin problemas de movilidad (Escaleras)", icon: <FaWheelchair  /> },
   ],
   acepta: [
     { title: "Familias", icon: <FaUsers /> },

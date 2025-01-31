@@ -20,53 +20,53 @@ const ServicesData = [
   },
   {
     id: 2,
-    title: "Estacionamiento dentro de la instalación",
+    title: "Tv-Smart Android",
     link: "#",
     icon: <FaParking />,
     delay: 0.3,
   },
   {
     id: 3,
-    title: "Cocina completamente equipada",
+    title: "Cocina completamente equipada, Microondas, Pava Electrica",
     link: "#",
     icon: <GiCookingPot />,
     delay: 0.4,
   },
   {
     id: 4,
-    title: "Blanquería (sábanas y toallas)",
+    title: "Blanquería - sábanas, toallas",
     link: "#",
     icon: <RiHotelBedLine />,
     delay: 0.5,
   },
   {
     id: 5,
-    title: "Shampoo, acondicionador y jabón líquido",
+    title: "Baño - Papel Higienico, jabon tocador",
     link: "#",
     icon: <FaSoap />,
     delay: 0.6,
   },
   {
     id: 6,
-    title: "Patio trasero privado",
+    title: "En la cocina - Ollas, cubiertos y utensillos, d etegente, esponja, rejilla y repasador",
     link: "#",
     icon: <FaTree />, // Alternativa para "Patio trasero privado"
     delay: 0.7,
   },
   {
     id: 7,
-    title: "Planta baja (sin escaleras, fácil acceso)",
+    title: "Planta alta (con escaleras, fácil acceso)",
     link: "#",
     icon: <MdAccessibility />,
     delay: 0.8,
   },
-  {
-    id: 8,
-    title: "Botiquín",
-    link: "#",
-    icon: <FaFirstAid  />, // Icono de botiquín en rojo
-    delay: 0.8,
-  },
+  //{
+    //id: 8,
+    //title: "",
+    //link: "#",
+    //icon: <FaFirstAid  />, // Icono de botiquín en rojo
+    //delay: 0.8,
+  //},
 ];
 
 const SlideLeft = (delay) => {

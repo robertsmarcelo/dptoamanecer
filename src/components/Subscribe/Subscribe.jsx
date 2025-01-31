@@ -11,7 +11,7 @@ const bgStyle = {
 };
 
 const Subscribe = () => {
-  const phoneNumber = "542945685055"; // Número de teléfono
+  const phoneNumber = "542804599431"; // Número de teléfono
   const whatsappMessage =
     "¡Hola! Quiero consultar por disponibilidad para alojamiento en las fechas...";
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
