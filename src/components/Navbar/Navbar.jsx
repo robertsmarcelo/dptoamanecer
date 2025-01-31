@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
         <img src="/bird.png" alt="Bird" className="w-6 h-6" />
-          <h1 className="font-bold text-2xl">Depto Diucón</h1>
+          <h1 className="font-bold text-2xl">Depto Amanecer</h1>
         </div>
 
         {/* Desktop Menu */}

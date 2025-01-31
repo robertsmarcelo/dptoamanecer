@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Circle, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
 const MapView = () => {
-  const center = [-42.915900, -71.321950];
+  const center = [-42.774546, -65.036151]
 
   return (
     <div className="w-full h-96 sm:h-48 max-h-[500px] sm:max-h-[100px] md:max-h-[350px] lg:max-h-[300px] rounded-lg overflow-hidden shadow-lg z-0">

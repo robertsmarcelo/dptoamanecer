@@ -20,7 +20,7 @@ const Footer = () => {
             donde la comodidad y la naturaleza se fusionan perfectamente.
             Desde aquí, podrás llegar a pie a muchos de los lugares más destacados
             del centro, la playa y la gastronomia de Madryn, mientras te relajas
-            en un entorno tranquilo.  isfruta de la belleza del mar, la fauna
+            en un entorno tranquilo.  disfruta de la belleza del mar, la fauna
             autóctona y las actividades al aire libre que la ciudad tiene
             para ofrecer. Un lugar pensado para tu descanso y momentos inolvidables.
             </p>
@@ -31,20 +31,6 @@ const Footer = () => {
             <h1 className="text-2xl font-bold text-gray-800">Contáctanos</h1>
             <p className="text-gray-600">¿Tienes preguntas? ¡Estamos aquí para ayudarte!</p>
             <ul className="space-y-2 text-gray-600">
-              <li className="flex items-center">
-                <FaHome className="mr-2 text-blue-500" />
-                <a
-                  href="https://www.alquilerargentina.com/alojamientos/al22-Departamento-Departamento-en-el-Centro-Esquel.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border border-blue-500 text-blue-500 px-3 py-1 rounded-md hover:bg-blue-500 hover:text-white transition-all duration-200"
-                >
-                  Reseñas Alquiler Argentina
-                </a>
-              </li>
-
-
-
               <li className="flex items-center">
                 <FaWhatsapp className="mr-2 text-green-500" />
                 <a href="https://wa.me/+5492804599431" className="hover:text-primary duration-200">
