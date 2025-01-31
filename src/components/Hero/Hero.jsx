@@ -38,8 +38,8 @@ const Hero = () => {
               animate="animate"
               className="text-3xl lg:text-5xl font-bold !leading-snug pt-10"
             >
-              Departamento en el corazón de{" "}
-              <span className="text-secondary"> Esquel ♥</span>
+              Departamento en el Centro de{" "}
+              <span className="text-secondary"> Puerto Madryn ♥</span>
             </motion.h1>
             <motion.div
               variants={FadeUp(0.8)}
