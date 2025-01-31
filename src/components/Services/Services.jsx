@@ -1,10 +1,10 @@
 import React from "react";
 import { RiWifiLine } from "react-icons/ri"; // Para Wifi
-import { FaParking } from "react-icons/fa"; // Para Estacionamiento
-import { GiCookingPot } from "react-icons/gi"; // Para Cocina completamente equipada
+import { MdConnectedTv } from "react-icons/md"; // Para TV Smart
+import { LuMicrowave } from "react-icons/lu"; // Para Cocina completamente equipada
 import { RiHotelBedLine } from "react-icons/ri"; // Para Blanquería
 import { FaSoap } from "react-icons/fa"; // Para Shampoo y jabón
-import { FaTree } from "react-icons/fa"; // Para Patio trasero privado
+import { GiCookingPot } from "react-icons/gi"; // Para Microondas cocina
 import { FaFirstAid } from "react-icons/fa"; // Para Patio trasero privado
 import { MdAccessibility } from "react-icons/md"; // Para Planta baja (sin escaleras)
 import { motion } from "framer-motion";
@@ -22,14 +22,14 @@ const ServicesData = [
     id: 2,
     title: "Tv-Smart Android",
     link: "#",
-    icon: <FaParking />,
+    icon: <FadConnectedTv />,
     delay: 0.3,
   },
   {
     id: 3,
     title: "Cocina completamente equipada, Microondas, Pava Electrica",
     link: "#",
-    icon: <GiCookingPot />,
+    icon: <LuMicrowave />,
     delay: 0.4,
   },
   {
@@ -48,9 +48,9 @@ const ServicesData = [
   },
   {
     id: 6,
-    title: "En la cocina - Ollas, cubiertos y utensillos, d etegente, esponja, rejilla y repasador",
+    title: "En la cocina - Ollas, cubiertos y utensillos, detegente, esponja, rejilla y repasador",
     link: "#",
-    icon: <FaTree />, // Alternativa para "Patio trasero privado"
+    icon: <GiCookingPot />, // Alternativa para "Patio trasero privado"
     delay: 0.7,
   },
   {
