@@ -48,7 +48,7 @@ const ServicesData = [
   },
   {
     id: 6,
-    title: "Ventilador de Techo",
+    title: "Ventilador de Techo en Living Comedor",
     link: "#",
     icon: <BsFan />,
     delay: 0.7,
