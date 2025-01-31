@@ -26,9 +26,9 @@ const MapView = () => {
         {/* Círculo de radio 300 metros */}
         <Circle
           center={center}
-          radius={400}
+          radius={100}
           pathOptions={{
-            color: "yellow",
+            color: "red",
             fillColor: "yellow",
             fillOpacity: 0.3,
           }}
