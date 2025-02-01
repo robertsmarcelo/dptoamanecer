@@ -19,9 +19,11 @@ const App = () => {
       <section id="fotos">
         <Pictures />
       </section>
+      {/*
       <section id="videos">
         <Videos />
       </section>
+      */}
       <section id="servicios">
         <Services />
       </section>
