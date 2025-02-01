@@ -18,17 +18,17 @@ import pasillo from "../../assets/Pasillo.jpeg";
 import tvsmarth from "../../assets/TvSmarth.jpg";
 
 const areaImages = [
-  { id: 1, title: "Divan Cama Doble", image: divan },
-  { id: 2, title: "Living Comedor", image: living },
-  { id: 3, title: "Cocina", image: cocina },
-  { id: 4, title: "Cocina 2", image: cocinacomedor },
-  { id: 5, title: "Cocina 3", image: cocina2 },
-  { id: 6, title: "Baño", image: banoEspejo },
-  { id: 7, title: "Baño 2", image: banoino },
-  { id: 8, title: "Habitacion", image: habitacion },
-  { id: 9, title: "Closet", image: placard },
-  { id: 10, title: "Pasillo", image: pasillo },
-  { id: 11, title: "TV Smart", image: tvsmarth },
+  { id: 1, image: divan },
+  { id: 2, image: living },
+  { id: 3, image: cocina },
+  { id: 4, image: cocinacomedor },
+  { id: 5, image: cocina2 },
+  { id: 6, image: banoEspejo },
+  { id: 7, image: banoino },
+  { id: 8, image: habitacion },
+  { id: 9, image: placard },
+  { id: 10, image: pasillo },
+  { id: 11, image: tvsmarth },
 ];
 
 const Pictures = () => {
