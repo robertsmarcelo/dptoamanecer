@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import videor from "../../assets/recorrido.mp4"
+import ReactPlayer from 'react-player/youtube';
 import entrada from "../../assets/entrada.jpeg";
 import habitacion1 from "../../assets/habitacion1.jpg";
 import habitacion1b from "../../assets/habitacion1b.jpg";

@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Pictures from "./components/Pictures/Pictures";
 import ReservationInfo from "./components/ReservationInfo/ReservationInfo";
 import Navbar from "./components/Navbar/Navbar";
+import Videos from "./components/Video/Videos";
 
 const App = () => {
   return (
@@ -18,12 +19,9 @@ const App = () => {
       <section id="fotos">
         <Pictures />
       </section>
-
-      {/* <section id="ubicacion">
-        <MapView />
-      </section> */}
-
-
+      <section id="videos">
+        <Videos />
+      </section>
       <section id="servicios">
         <Services />
       </section>
