@@ -49,6 +49,9 @@ const Hero = () => {
               animate="animate"
               className="flex justify-center md:justify-start"
             >
+              <iframe width="289" height="513" 
+                src="https://www.youtube.com/embed/hKEZjA_2SDA" title="Recorrido Dpto Madryn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
               {/* <button
                 className="primary-btn w-1/2"
                 onClick={() => {
