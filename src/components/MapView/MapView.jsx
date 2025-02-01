@@ -9,7 +9,7 @@ const MapView = () => {
     <div className="w-full h-96 sm:h-48 max-h-[500px] sm:max-h-[100px] md:max-h-[350px] lg:max-h-[300px] rounded-lg overflow-hidden shadow-lg z-0">
       <MapContainer 
         center={center} 
-        zoom={13} 
+        zoom={15} 
         className="w-full h-full"
         scrollWheelZoom={false} 
         dragging={false} 

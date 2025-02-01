@@ -56,17 +56,6 @@ const Banner = () => {
                 </motion.div>
               ))}
               {/* Información del descuento */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="p-6 bg-yellow-100 border-l-4 border-yellow-500 rounded-2xl text-center md:text-left "
-              >
-                <p className="text-lg font-medium text-yellow-700">
-                  El departamento cuenta con una cama de 2 plazas y un divan cama de una plaza, logrando asi albergar a 4 personas comodamente.
-                </p>
-              </motion.div>
             </div>
           </div>
         </div>

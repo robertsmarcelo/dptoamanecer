@@ -24,7 +24,6 @@ const areaImages = [
   { id: 6, title: "Dormitorio 2", image: habitacion2 },
   { id: 7, title: "Baño completo", image: baño1 },
   { id: 8, title: "Patio trasero", image: patiotrasero },
-  { id: 9, title: "Recorrido", video: videor },
 ];
 
 const Pictures = () => {
