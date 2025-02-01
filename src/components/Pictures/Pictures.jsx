@@ -71,7 +71,7 @@ const Pictures = () => {
         {`
           .swiper-button-next,
           .swiper-button-prev {
-            color: white !important;
+            color: black !important;
           }
         `}
       </style>
