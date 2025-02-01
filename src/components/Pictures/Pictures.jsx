@@ -66,6 +66,9 @@ const Pictures = () => {
           ))}
         </Swiper>
       </div>
+      <iframe width="289" height="513" 
+          src="https://www.youtube.com/embed/hKEZjA_2SDA" title="Recorrido Dpto Madryn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
       {/* Estilos personalizados para cambiar el color de los botones de navegación */}
       <style>
         {`
