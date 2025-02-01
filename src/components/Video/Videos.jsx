@@ -1,16 +1,28 @@
-import React from "react";
-import ReactPlayer from 'react-player';
+//'https://youtube.com/shorts/hKEZjA_2SDA?feature=share'
 
-function Videos(){
-    <>
-      <ReactPlayer
-        url={'https://youtube.com/shorts/hKEZjA_2SDA?feature=share'}
-        playing={true}
-        muted={true}
-        loop={true}
-        controls={true}
-        width={250}
-        height={480}
-        />
-    </>
+import React from "react";
+import YouTube from "react-youtube";
+
+export default class YoutubeVideo extends React.Component {
+    render() {
+        const opts = {
+            height: "480",
+            width: "250",
+            playerVars: {
+                autoplay: 1,
+            },
+        };
+
+        return (
+            <div>
+                <h3>GeeksforGeeks - Youtube</h3>
+                <YouTube videoId="hKEZj_2SDA" 
+                    opts={opts} onReady={this._onReady} />
+            </div>
+        );
+    }
+
+    _onReady(event) {
+        event.target.pauseVideo();
+    }
 }
