@@ -12,7 +12,7 @@ import cocina2 from "../../assets/Cocina2.jpg"
 import cocinacomedor from "../../assets/LivingCocina.jpeg";
 import banoEspejo from "../../assets/banoespejo.jpg";
 import banoino from "../../assets/BanoIno.jpeg";
-import habitacion from "../../assets/habitacion.jpeg";
+import habitacion from "../../assets/Habitacion.jpeg";
 import placard from "../../assets/HabitacionCloset.jpeg";
 import pasillo from "../../assets/Pasillo.jpeg";
 import tvsmarth from "../../assets/TvSmarth.jpeg";
