@@ -15,7 +15,7 @@ import banoino from "../../assets/BanoIno.jpeg";
 import habitacion from "../../assets/Habitacion.jpeg";
 import placard from "../../assets/HabitacionCloset.jpeg";
 import pasillo from "../../assets/Pasillo.jpeg";
-import tvsmarth from "../../assets/TvSmarth.jpeg";
+import tvsmarth from "../../assets/TvSmarth.jpg";
 
 const areaImages = [
   { id: 1, title: "Divan Cama Doble", image: divan },
