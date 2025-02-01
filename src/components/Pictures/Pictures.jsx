@@ -65,11 +65,12 @@ const Pictures = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
-      <div style="text-align:center;">
-        <iframe width="289" height="513" 
-          src="https://www.youtube.com/embed/hKEZjA_2SDA" title="Recorrido Dpto Madryn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
+        <div style="text-align:center;">
+            <h1 className="text-4xl font-bold text-left pt-10 pb-10">Recorrido</h1>
+            <iframe width="289" height="513" 
+                src="https://www.youtube.com/embed/hKEZjA_2SDA" title="Recorrido Dpto Madryn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
       </div>
       {/* Estilos personalizados para cambiar el color de los botones de navegación */}
       <style>
