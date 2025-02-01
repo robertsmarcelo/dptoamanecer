@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import videor from "../../assets/recorrido.mp4"
 import entrada from "../../assets/entrada.jpeg";
 import habitacion1 from "../../assets/habitacion1.jpg";
 import habitacion1b from "../../assets/habitacion1b.jpg";
@@ -23,6 +24,7 @@ const areaImages = [
   { id: 6, title: "Dormitorio 2", image: habitacion2 },
   { id: 7, title: "Baño completo", image: baño1 },
   { id: 8, title: "Patio trasero", image: patiotrasero },
+  { id: 9, title: "Recorrido", video: videor },
 ];
 
 const Pictures = () => {
