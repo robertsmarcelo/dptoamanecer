@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Pictures from "./components/Pictures/Pictures";
 import ReservationInfo from "./components/ReservationInfo/ReservationInfo";
 import Navbar from "./components/Navbar/Navbar";
-import Videos from "./components/Video/Videos";
+//import Videos from "./components/Video/Videos";
 
 const App = () => {
   return (
