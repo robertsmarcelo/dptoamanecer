@@ -5,25 +5,30 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import ReactPlayer from 'react-player/youtube';
-import entrada from "../../assets/entrada.jpeg";
-import habitacion1 from "../../assets/habitacion1.jpg";
-import habitacion1b from "../../assets/habitacion1b.jpg";
-import habitacion2 from "../../assets/habitacion2.jpg";
-import cocina01 from "../../assets/cocina01.jpeg";
-import comedor from "../../assets/comedor.jpg";
-import baño1 from "../../assets/baño.jpg";
-import patiotrasero from "../../assets/patiotrasero.jpeg";
+import divan from "../../assets/divanCama.jpeg";
+import living from "../../assets/ComedorLiving.jpeg";
+import cocina from "../../assets/Cocina.jpeg";
+import cocina2 from "../../assets/Cocina2.jpg"
+import cocinacomedor from "../../assets/LivingCocina.jpeg";
+import banoEspejo from "../../assets/banoespejo.jpg";
+import banoino from "../../assets/BanoIno.jpeg";
+import habitacion from "../../assets/habitacion.jpeg";
+import placard from "../../assets/HabitacionCloset.jpeg";
+import pasillo from "../../assets/Pasillo.jpeg";
+import tvsmarth from "../../assets/TvSmarth.jpeg";
 
 const areaImages = [
-  { id: 1, title: "Entrada", image: entrada },
-  { id: 2, title: "Cocina completa", image: cocina01 },
-  { id: 3, title: "Comedor", image: comedor },
-  { id: 4, title: "Dormitorio 1", image: habitacion1 },
-  { id: 5, title: "Dormitorio 1", image: habitacion1b },
-  { id: 6, title: "Dormitorio 2", image: habitacion2 },
-  { id: 7, title: "Baño completo", image: baño1 },
-  { id: 8, title: "Patio trasero", image: patiotrasero },
+  { id: 1, title: "Divan Cama Doble", image: divan },
+  { id: 2, title: "Living Comedor", image: living },
+  { id: 3, title: "Cocina", image: cocina },
+  { id: 4, title: "Cocina 2", image: cocinacomedor },
+  { id: 5, title: "Cocina 3", image: cocina2 },
+  { id: 6, title: "Baño", image: banoEspejo },
+  { id: 7, title: "Baño 2", image: banoino },
+  { id: 8, title: "Habitacion", image: habitacion },
+  { id: 9, title: "Closet", image: placard },
+  { id: 10, title: "Pasillo", image: pasillo },
+  { id: 11, title: "TV Smart", image: tvsmarth },
 ];
 
 const Pictures = () => {
