@@ -68,7 +68,7 @@ const Pictures = () => {
         </Swiper>
             <h1 className="text-4xl font-bold text-left pt-10 pb-10">Recorrido</h1>
             <iframe width="289" height="513" 
-                src="https://www.youtube.com/embed/hKEZjA_2SDA?autoplay=1&mute=1&loop=1&controls=0&modestbranding=0&rel=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                src="https://www.youtube.com/embed/hKEZjA_2SDA?autoplay=1&mute=1&loop=1&controls=0&rel=0" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
       </div>
       {/* Estilos personalizados para cambiar el color de los botones de navegación */}
