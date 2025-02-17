@@ -1,5 +1,6 @@
 import React from "react";
 import { FaWhatsapp, FaMapMarkerAlt, FaHome } from "react-icons/fa"; // Importamos FaHome
+import { TbBrandAirbnb } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -31,6 +32,12 @@ const Footer = () => {
             <h1 className="text-2xl font-bold text-gray-800">Contáctanos</h1>
             <p className="text-gray-600">¿Tienes preguntas? ¡Estamos aquí para ayudarte!</p>
             <ul className="space-y-2 text-gray-600">
+              <li className="flex items-center">
+                <TbBrandAirbnb className="mr-2 text-green-500" />
+                <a href="https://airbnb.com/h/dptoamanecer/" className="hover:text-primary duration-200">
+                  Airbnb Amanecer
+                </a>
+              </li>
               <li className="flex items-center">
                 <FaWhatsapp className="mr-2 text-green-500" />
                 <a href="https://wa.me/+5492804599431" className="hover:text-primary duration-200">
