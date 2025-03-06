@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Banner = () => {
   // Precios por noche según cantidad de personas
   const prices = [
-    { people: "Maximo 4 personas", price: "70.000 ARS" },
+    { people: "Maximo 4 personas", price: "60.000 ARS" },
   ];
 
   return (
