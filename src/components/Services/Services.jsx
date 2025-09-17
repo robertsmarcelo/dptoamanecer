@@ -8,6 +8,7 @@ import { BsFan } from "react-icons/bs"; //Ventilador de Techo
 import { FaFirstAid } from "react-icons/fa"; // Para Patio trasero privado
 import { MdAccessibility } from "react-icons/md"; // Para Planta baja (sin escaleras)
 import { motion } from "framer-motion";
+import { GiHomeGarage } from "react-icons/gi"; // Para Estacionamiento
 
 
 const ServicesData = [
@@ -58,6 +59,13 @@ const ServicesData = [
     title: "Planta alta (con escaleras, fácil acceso)",
     link: "#",
     icon: <MdAccessibility />,
+    delay: 0.8,
+  },
+  {
+    id: 8,
+    title: "No cuenta con estacionamiento",
+    link: "#",
+    icon: <GiHomeGarage />,
     delay: 0.8,
   },
 ];
